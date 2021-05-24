@@ -1,18 +1,14 @@
-# Bootstrap-Boilerplate
-A boilerplate for Bootstrap Projects
+# JavaScript Stopwatch
 
+Vanilla stopwatch using js, using bootstrap template.
 
-## Running On 
+Date started: 05/23/21
+
+Date finished:
+
+## Running On
 
 This project is using:
+
 - [Bootstrap **v4.5**](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-
-
-### Theme
----
-*Add your theme info here.*
-
-
-### Third Party Tools/Packages
----
-*Add your packages and tools here.*
+- JavaScript

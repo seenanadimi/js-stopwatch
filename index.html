@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Bootstrap-Boilerplate</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid d-flex justify-content-center vh-100">
+      <div class="container text-center text-white align-self-center">
+        <h1>Stopwatch</h1>
+        <h2>Vanilla JavaScript Stopwatch</h2>
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <button class="btn btn-outline-light" id="start-btn">Start</button>
+        <button class="btn btn-outline-light" id="stop-btn">Stop</button>
+        <button class="btn btn-outline-light" id="reset-btn">Reset</button>
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
